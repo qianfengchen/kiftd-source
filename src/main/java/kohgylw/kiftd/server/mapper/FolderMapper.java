@@ -22,7 +22,7 @@ public interface FolderMapper
      * <h2>按照父文件夹的ID统计其下的所有文件夹数目</h2>
      * <p>该方法主要用于配合queryByParentIdSection方法实现分页加载。</p>
      * @author 青阳龙野(kohgylw)
-     * @param pfid java.lang.String 父文件夹ID
+     * @param pid java.lang.String 父文件夹ID
      * @return long 文件夹总数
      */
     long countByParentId(final String pid);
